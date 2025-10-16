@@ -17,10 +17,10 @@ This project is a React application integrated with WordPress for authentication
     Create a `.env.local` file in the root of the project with the following content:
 
     ```
-    NEXT_PUBLIC_BASE_URL=http://localhost/simorq/wp-json
+    NEXT_PUBLIC_BASE_URL=http://wordpress/wp-json
     ```
 
-    Replace `http://localhost/simorq/wp-json` with the actual URL of your WordPress API.
+    Replace `http://wordpress/wp-json` with the actual URL of your WordPress API.
 
 3.  **Run the Development Server**
 

@@ -2,7 +2,7 @@ import axios, { AxiosError, AxiosInstance } from 'axios';
 import { jwtDecode } from 'jwt-decode';
 import { LoginCredentials } from '@/types/auth';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost/simorq/wp-json';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://wordpressaddress.ir/wp-json';
 
 const api: AxiosInstance = axios.create({
   baseURL: BASE_URL,
